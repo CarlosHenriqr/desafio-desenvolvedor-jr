@@ -6,8 +6,8 @@
 ```bash
 # Fork este repositório no GitHub
 # Clone seu fork
-git clone https://github.com/SEU_USUARIO/teste-desenvolvedor-jr.git
-cd teste-desenvolvedor-jr
+git clone https://github.com/SEU_USUARIO/desafio-desenvolvedor-jr.git
+cd desafio-desenvolvedor-jr
 ```
 
 ### 2. Criar Branch
