@@ -31,13 +31,7 @@ Crie um arquivo `SOLUCOES.md` documentando:
 ### 5. Commit e Push
 ```bash
 git add .
-git commit -m "fix: corrige bugs do sistema de tarefas
-
-- Corrige inicialização do arquivo de dados
-- Corrige conversão de ID nos endpoints PUT/DELETE
-- Adiciona tratamento de CORS (PHP)
-- Documenta processo de debugging"
-
+git commit -m "fix: corrige bugs do sistema de tarefas"
 git push origin fix/correcao-bugs
 ```
 
