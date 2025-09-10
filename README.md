@@ -29,21 +29,14 @@ Escolha uma das versões para trabalhar:
 
 ## Critérios de Avaliação
 
-### Técnicos (40%)
+### Técnicos
 - Capacidade de identificar e corrigir bugs
 - Processo de debugging utilizado
 - Qualidade das correções implementadas
 - Documentação das soluções
 
-### Soft Skills (60%)
-- **Resolução de Problemas**: Metodologia para encontrar e corrigir bugs
-- **Comunicação**: Explicação clara dos problemas encontrados
-- **Aprendizado**: Como lidou com tecnologias/conceitos novos
-- **Organização**: Documentação do processo e soluções
-- **Persistência**: Não desistiu diante das dificuldades
-
 ## Tempo
-- Correção de bugs: 1-2 horas
+- Correção de bugs: 1-2 dias
 - Apresentação: 35 minutos
 
 ## Entrega
