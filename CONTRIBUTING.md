@@ -6,7 +6,7 @@
 ```bash
 # Fork este repositório no GitHub
 # Clone seu fork
-git clone https://github.com/SEU_USUARIO/desafio-desenvolvedor-jr.git
+git clone https://github.com/essentiadigitalaccounts/desafio-desenvolvedor-jr.git
 cd desafio-desenvolvedor-jr
 ```
 
