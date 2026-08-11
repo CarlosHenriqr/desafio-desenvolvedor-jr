@@ -1,5 +1,5 @@
 node_modules/
-*.json
+projeto-nodejs/backend/tasks.json
 *.log
 .env
 .DS_Store

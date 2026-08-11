@@ -1,0 +1,14 @@
+services:
+  backend:
+    build:
+      context: ./projeto-nodejs/backend
+    ports:
+      - "3000:3000"
+
+  frontend:
+    build:
+      context: ./projeto-nodejs/frontend
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
