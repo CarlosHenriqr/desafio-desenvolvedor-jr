@@ -29,7 +29,12 @@ app.get('/api/tasks', (req, res) => {
 // POST - Criar tarefa
 app.post('/api/tasks', (req, res) => {
     try {
-        const { title } = req.body;
+        const { title, dueDate } = req.body;
+        const today = new Date().toISOString().slice(0, 10);
+
+        if (dueDate && dueDate < today) {
+            return res.status(400).json({ error: 'Data da tarefa não pode ser anterior a hoje' });
+        }
         
         if (!title) {
             return res.status(400).json({ error: 'Título é obrigatório' });
@@ -41,6 +46,7 @@ app.post('/api/tasks', (req, res) => {
         const newTask = {
             id: Date.now(),
             title,
+            dueDate: dueDate || null,
             completed: false
         };
         

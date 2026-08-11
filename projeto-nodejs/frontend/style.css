@@ -95,3 +95,14 @@ button:hover {
 .btn-danger:hover {
     background: #c82333;
 }
+
+.task-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.task-date {
+    color: #666;
+    font-size: 12px;
+}
