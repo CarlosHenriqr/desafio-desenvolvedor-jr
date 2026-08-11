@@ -56,7 +56,7 @@ app.post('/api/tasks', (req, res) => {
 // PUT - Atualizar tarefa
 app.put('/api/tasks/:id', (req, res) => {
     try {
-        const taskId = req.params.id;
+        const taskId = Number(req.params.id);
 
         if(!Number.isSafeInteger(taskId)) {
             return res.status(400).json({ error: 'ID da tarefa inválido' });
@@ -85,7 +85,7 @@ app.put('/api/tasks/:id', (req, res) => {
 // DELETE - Remover tarefa
 app.delete('/api/tasks/:id', (req, res) => {
     try {
-        const taskId = req.params.id;
+        const taskId = Number(req.params.id);
 
         if(!Number.isSafeInteger(taskId)) {
             return res.status(400).json({ error: 'ID da tarefa inválido' });
